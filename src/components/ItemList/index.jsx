@@ -24,7 +24,12 @@ const ItemList = ({data}) => {
         }}
       ></div>
       <div>
-        <a href={data.project} target="_blank" rel="noopener noreferrer"><strong>{data.title}</strong></a>
+        <a className="title-container" href={data.project} target="_blank" rel="noopener noreferrer"><strong>{data.title}</strong></a>
+        <p className="skills-container">
+          {data.skills.map(skill => 
+          <span className="skill" key={data.id}>{skill + " "}  
+          </span>)} 
+        </p>
         <p>{data.description} </p>
         </div>
 

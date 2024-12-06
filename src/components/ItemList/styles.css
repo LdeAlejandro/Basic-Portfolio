@@ -101,3 +101,26 @@
   .item-list .image-container:hover {
     background-image: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDEweXpmazNqNWN2dnU1eDFlNzB1MXhoN2Nranp0cHZremY4YTdqZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MUHNdrm3vk7MoyUsCO/giphy.webp");
   }
+
+  .skills-container{
+       display: flex;
+       flex-wrap: wrap;
+    
+  }
+  .skill{
+    color: white;
+    font-size: 12px;
+    background-color: #279759;
+    border-radius: 22px;
+    padding: 8px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+  }
+
+  .title-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+ 
