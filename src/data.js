@@ -100,7 +100,6 @@ export const projectsData = [
     repo:"https://github.com/LdeAlejandro/Desafio-QA-Dio",
     skills:["Jira"]
 },
-
 {
     id: 16,
     title: "Cloning Instagram Login Page",
@@ -109,6 +108,14 @@ export const projectsData = [
     img: require("./assets/cloning-igLoginPage/img.png"),
     project: "https://ldealejandro.github.io/Instagram-Dio-Desafio-css/index.html",
     skills:["Html", "Css", "Javascript"]
+},
+{
+    id: 16,
+    title: "SQL Query Consultation Project",
+    description:"This project serves as a showcase of my SQL querying skills" ,
+    repo:"https://github.com/LdeAlejandro/Toti-Consultas-Sql-Projeto",
+    img: require("./assets/cloning-igLoginPage/img.png"),
+    skills:["Sql"]
 },
 {
     id: 15,
@@ -155,8 +162,8 @@ export const projectsData = [
 },
 {
     id: 11,
-    title: "Projeto Node.js Api Rest para Gerenciar Task s",
-    description:" Practica de consultas de banco de dados de um site de filmes" ,
+    title: "Node.js REST API Project for Managing Tasks",
+    description:"This project is a showcase of my skills in building REST APIs with Node.js and Sequelize" ,
     repo:"https://github.com/LdeAlejandro/Toti-API-REST-NODE-JS",
     project: "https://drive.google.com/file/d/1h5CBLvonx2YBVnpGy4zvVOb8SRd8tG7k/view",
     skills:["Javascript","Node.js"]
@@ -189,29 +196,29 @@ export const projectsData = [
 },
 {
     id: 7,
-    title: "Practica C# testes de unidades",
-    description:" Practica de consultas de banco de dados de um site de filmes" ,
+    title: "Challenge - C# Unit Testing",
+    description:"Practice project for database queries on a movie website" ,
     repo:"https://github.com/LdeAlejandro/Toti-exercicios/blob/main/ExercicioRecriarSite.html",
     skills:["C#","Xunit"]
 },
 {
     id: 6,
     title: "CRUD - Swagger Api C#",
-    description:" Practica de consultas de banco de dados de um site de filmes" ,
-    repo:"https://github.com/LdeAlejandro/Toti-exercicios/blob/main/ExercicioRecriarSite.html",
+    description:"Creation of a CRUD API with Swagger to manage tasks" ,
+    repo:"https://github.com/LdeAlejandro/trilha-net-api-desafio",
     skills:["C#","Sql"]
 },
 {
     id: 5,
-    title: "Consultas banco de dados",
-    description:" Practica de consultas de banco de dados de um site de filmes" ,
-    repo:"https://github.com/LdeAlejandro/Toti-exercicios/blob/main/ExercicioRecriarSite.html",
+    title: "Database Query Practice",
+    description:"Practice project for database queries on a movie website" ,
+    repo:"https://github.com/LdeAlejandro/sql",
     skills:["Sql"]
 },
   {
     id: 4,
-    title: "Practica - Abstraindo Celuar",
-    description:"This project is mean to show C# POO skills learned in Dio Avanade C# Bootcamp" ,
+    title: "Abstracting a Cell Phone",
+    description:"This project showcases C# OOP skills learned in the DIO Avanade C# Bootcamp" ,
     repo:"https://github.com/LdeAlejandro/trilha-net-poo-desafio",
    // img: require("./assets/cloning-web/img.png"),
    // gif: require("./assets/cloning-web/img.gif"),
@@ -219,15 +226,15 @@ export const projectsData = [
 },
 {
     id: 3,
-    title: "Practica - Sistema de hospedagem",
+    title: "Challenge - Hosting System",
     description:"This project is mean to show C# fundamentals skill learned in Dio Avanade C# Bootcamp" ,
     repo:"https://github.com/LdeAlejandro/trilha-net-explorando-desafio",
     skills:["C#"]
 },
 {
     id: 2,
-    title: "Practica - Sistema Estacionamiento",
-    description:"This project is mean to show C# fundamentals skill learned in Dio Avanade C# Bootcampl" ,
+    title: "Challenge - Parking System",
+    description:"This project showcases C# fundamental skills learned in the DIO Avanade C# Bootcamp" ,
     repo:"https://github.com/digitalinnovationone/trilha-net-fundamentos-desafio",
     //img: require("./assets/cloning-recipepage/img.png"),
     //gif: require("./assets/cloning-recipepage/img.gif"),
