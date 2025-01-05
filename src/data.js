@@ -2,6 +2,13 @@
 
 export const projectsData = [
     {
+        id: 28,
+        title: "Maven - JUnit Tests Practice",
+        description:"This project is meant to showcase Java JUnit skills learned in the Dio Java Developer Program." ,
+        repo:"https://github.com/LdeAlejandro/Dio-Java-Junit/tree/main/junit-maven",
+        skills:["Java", "Junit", "Maven"]
+    },
+    {
     id: 27,
     title: "Timer Alarm Extension",
     description:"This extension lets you set timers that trigger Windows notifications, ensuring you never miss important tasks or reminders. Stay organized and on schedule with ease." ,
