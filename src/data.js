@@ -2,6 +2,13 @@
 
 export const projectsData = [
     {
+        id: 29,
+        title: "Java - Mockito practice",
+        description:"This project is meant to showcase Java Mockito skills learned in the Dio Java Developer Program." ,
+        repo:"https://github.com/LdeAlejandro/Dio-Java-Mockito",
+        skills:["Java", "Junit", "Mockito","Maven"]
+    },
+    {
         id: 28,
         title: "Maven - JUnit Tests Practice",
         description:"This project is meant to showcase Java JUnit skills learned in the Dio Java Developer Program." ,
