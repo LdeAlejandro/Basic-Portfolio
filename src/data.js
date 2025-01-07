@@ -1,6 +1,14 @@
 // src/data.js
 
 export const projectsData = [
+
+    {
+        id: 30,
+        title: "Spring Boot - simple API REST CRUD practice",
+        description:"This project is meant to showcase Spring Boot skills learned in the Dio Java Developer Program." ,
+        repo:"https://github.com/LdeAlejandro/Dio-java-Spring-Api-Rest-Web-Swagger",
+        skills:["Spring Boot","Java", "Swagger", "Rest"]
+    },
     {
         id: 29,
         title: "Java - Mockito practice",
