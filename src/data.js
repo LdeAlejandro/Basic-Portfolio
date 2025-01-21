@@ -3,8 +3,15 @@
 export const projectsData = [
 
     {
+        id: 31,
+        title: "Spring Boot - JWT Authentication",
+        description:"This project is meant to showcase Spring Boot skills learned in the Dio Java Developer Program with JWT Authentication." ,
+        repo:"https://github.com/LdeAlejandro/Dio-java-Spring-Boot-jpa-jwt-security-h2",
+        skills:["Spring Boot","Java", "Jwt"]
+    },
+    {
         id: 30,
-        title: "Spring Boot - simple API REST CRUD practice",
+        title: "Spring Boot - simple API REST CRUD",
         description:"This project is meant to showcase Spring Boot skills learned in the Dio Java Developer Program." ,
         repo:"https://github.com/LdeAlejandro/Dio-java-Spring-Api-Rest-Web-Swagger",
         skills:["Spring Boot","Java", "Swagger", "Rest"]
@@ -136,7 +143,6 @@ export const projectsData = [
     title: "SQL Query Consultation Project",
     description:"This project serves as a showcase of my SQL querying skills" ,
     repo:"https://github.com/LdeAlejandro/Toti-Consultas-Sql-Projeto",
-    img: require("./assets/cloning-igLoginPage/img.png"),
     skills:["Sql"]
 },
 {
