@@ -3,6 +3,13 @@
 export const projectsData = [
 
     {
+        id: 32,
+        title: "Spring Boot - CRUD cep API",
+        description:"This project is meant to showcase Spring Boot skills for CRUD API, making an app that registers clients and their addresses." ,
+        repo:"https://github.com/LdeAlejandro/Dio-java-Spring-Boot-jpa-jwt-security-h2",
+        skills:["Spring Boot","Java", "Swagger", "Rest"]
+    },
+    {
         id: 31,
         title: "Spring Boot - JWT Authentication",
         description:"This project is meant to showcase Spring Boot skills learned in the Dio Java Developer Program with JWT Authentication." ,
