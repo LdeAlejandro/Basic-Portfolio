@@ -2,7 +2,14 @@
 
 export const projectsData = [
 
-    {
+    { 
+        id: 33,
+        title: "Docker YAML challenge",
+        description:"This project is meant to showcase some of the skills learned in the Dio Docker Program." ,
+        repo:"https://github.com/LdeAlejandro/Dio-challenge-docker-apache-httpd",
+        skills:["Docker"]
+    },
+    { 
         id: 32,
         title: "Spring Boot - CRUD cep API",
         description:"This project is meant to showcase Spring Boot skills for CRUD API, making an app that registers clients and their addresses." ,
