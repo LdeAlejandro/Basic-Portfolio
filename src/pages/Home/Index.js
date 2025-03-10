@@ -24,7 +24,7 @@ function App() {
             <img src="https://avatars.githubusercontent.com/u/28720780?s=400&u=1bc38d7fbe1486b943782b4be6cbc3f7a1f9226a&v=4" className="profile" alt="profile img"/>
               <div>
                 <h3>Alejandro Amoroso</h3>
-                <p>Fullstack Developer | React | Java | JPA | Springboot | Docker | Node.js | JavaScript | C#, SQL, MongoDB, and Test Automation (Selenium, Rest Assured, Cypress) | Git and GitHub</p>
+                <p>Fullstack Developer | React | Java | JPA | Springboot | Kubernetes | Docker | Node.js | JavaScript | SQL | MongoDB |Test Automation (Selenium, Rest Assured, Cypress) | Git and GitHub</p>
                 <br/>
                 <div className="social-container">
                 <a href="https://www.linkedin.com/in/alejandro-amoroso/details/certifications/" target="_blank" rel="noopener noreferrer"><span><strong>Certifications</strong></span></a>
@@ -39,8 +39,8 @@ function App() {
                   <li>Portuguese: Fluent</li>
                 </ul>
                 </div>
-                <br/><span className="studies"><strong>Currently Studying:</strong> Kubernetes</span>
-                <span><strong>Next Focus:</strong> Aws</span>
+                <br/><span className="studies"><strong>Currently Studying:</strong>AWS</span>
+                <span><strong>Next Focus:</strong>TypeScript</span>
 
                 
                 </div>

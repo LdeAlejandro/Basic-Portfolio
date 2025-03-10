@@ -3,8 +3,22 @@
 export const projectsData = [
 
     { 
+        id: 35,
+        title: "Kubernetes Challenge – CI/CD Pipeline for App Deploy in GCP", 
+        description:"This project is meant to showcase some of the skills learned in the Dio Docker Program." ,
+        repo:"https://github.com/LdeAlejandro/Dio-challenge-docker-apache-httpd",
+        skills:["Kubernetes","Docker","GitLab"]
+    },
+    { 
+        id: 34,
+        title: "Kubernetes challenge - Create a deployment for an application",
+        description:"This project is meant to showcase skills learned in the Dio Kubernetes Program, Create a deployment for an application (Frontend, Backend and MySQL), with LoadBalancer and replicas" ,
+        repo:"https://github.com/LdeAlejandro/Dio-challenge-docker-apache-httpd",
+        skills:["Kubernetes","Docker",]
+    },
+    { 
         id: 33,
-        title: "Docker YAML challenge",
+        title: "Docker Apache HTTPD YML challenge",
         description:"This project is meant to showcase some of the skills learned in the Dio Docker Program." ,
         repo:"https://github.com/LdeAlejandro/Dio-challenge-docker-apache-httpd",
         skills:["Docker"]
@@ -134,6 +148,8 @@ export const projectsData = [
     title: "QA - Selenium Automation for Websites",
     description:"A project designed to demonstrate skills in automated testing for websites." ,
     repo:"https://github.com/LdeAlejandro/Selenium-Automation",
+    img: require("./assets/QA - Selenium Automation for Websites/img.png"), 
+    gif: require("./assets/QA - Selenium Automation for Websites/img.gif"),
     skills:["Selenium", "Java"]
 },
 {
@@ -207,7 +223,8 @@ export const projectsData = [
     title: "Node.js REST API Project for Managing Tasks",
     description:"This project is a showcase of my skills in building REST APIs with Node.js and Sequelize" ,
     repo:"https://github.com/LdeAlejandro/Toti-API-REST-NODE-JS",
-    project: "https://drive.google.com/file/d/1h5CBLvonx2YBVnpGy4zvVOb8SRd8tG7k/view",
+    img: require("./assets/Node.js REST API Project for Managing Tasks/img.png"), 
+    gif: require("./assets/Node.js REST API Project for Managing Tasks/img.gif"),
     skills:["Javascript","Node.js"]
 },
 {
@@ -241,6 +258,7 @@ export const projectsData = [
     title: "Challenge - C# Unit Testing",
     description:"Practice project for database queries on a movie website" ,
     repo:"https://github.com/LdeAlejandro/Toti-exercicios/blob/main/ExercicioRecriarSite.html",
+    img: require("./assets/Challenge - C# Unit Testing/img.png"),
     skills:["C#","Xunit"]
 },
 {
@@ -260,32 +278,43 @@ export const projectsData = [
   {
     id: 4,
     title: "Abstracting a Cell Phone",
-    description:"This project showcases C# OOP skills learned in the DIO Avanade C# Bootcamp" ,
+    description:"This project showcases C# OOP skills learned in the DIO Avanade C# Bootcamp, which abstracts phone features" ,
     repo:"https://github.com/LdeAlejandro/trilha-net-poo-desafio",
-   // img: require("./assets/cloning-web/img.png"),
-   // gif: require("./assets/cloning-web/img.gif"),
+    img: require("./assets/Abstracting a Cell Phone/img.png"),
+    gif: require("./assets/Abstracting a Cell Phone/img.gif"),
     skills:["C#"]
 },
 {
     id: 3,
     title: "Challenge - Hosting System",
-    description:"This project is mean to show C# fundamentals skill learned in Dio Avanade C# Bootcamp" ,
+    description:"This project is mean to show C# fundamentals skill learned in Dio Avanade C# Bootcamp that simulates a booking system" ,
     repo:"https://github.com/LdeAlejandro/trilha-net-explorando-desafio",
+    img: require("./assets/Challenge - Hosting System/img.png"),
+    gif: require("./assets/Challenge - Hosting System/img.gif"),
     skills:["C#"]
 },
 {
     id: 2,
     title: "Challenge - Parking System",
-    description:"This project showcases C# fundamental skills learned in the DIO Avanade C# Bootcamp" ,
-    repo:"https://github.com/digitalinnovationone/trilha-net-fundamentos-desafio",
-    //img: require("./assets/cloning-recipepage/img.png"),
-    //gif: require("./assets/cloning-recipepage/img.gif"),
+    description:"This project showcases C# fundamental skills learned in the DIO Avanade C# Bootcamp that simulates a parking system" ,
+    repo:"https://github.com/LdeAlejandro/trilha-net-fundamentos-desafio",
+    img: require("./assets/Challenge - Parking System/img.png"),
+    gif: require("./assets/Challenge - Parking System/img.gif"),
     skills:["C#"]
 },
 {
     id: 1,
-    title: "Old prototype game Unity c#",
-    description:"This video is to show a prototype game in Unity c#" ,
+    title: "Unity2D - Music Data Handling Test Scenario",
+    description:"This video is showing a 2d Scenario to undestarnd better how would look the game visually handling music data into 2D object sizes." ,
+    project: "https://www.youtube.com/watch?v=gV3BYEONF3I",
+    img: require("./assets/unity-data2d/img.png"),
+    gif: require("./assets/unity-data2d/img.gif"),
+    skills:["C#", "Unity"]
+},
+{
+    id: 0,
+    title: "Unity - Old prototype game",
+    description:"This video is to show a prototype game in Unity c#, that was made to test some game mechanics, such as movement, triggers, reverse time, slow down time, portals and music data manipulation to change light, object sizes, colors and particles speed dinamically." ,
     project: "https://www.youtube.com/watch?v=ryH6_a-Tqjk",
     img: require("./assets/game-proto/img.png"),
     gif: require("./assets/game-proto/img.gif"),
