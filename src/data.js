@@ -6,14 +6,14 @@ export const projectsData = [
         id: 35,
         title: "Kubernetes Challenge – CI/CD Pipeline for App Deploy in GCP", 
         description:"This project is meant to showcase some of the skills learned in the Dio Docker Program." ,
-        repo:"https://github.com/LdeAlejandro/Dio-challenge-docker-apache-httpd",
+        repo:"https://gitlab.com/LdeAlejandro/dio-k8-challenge-pipeline-deploy",
         skills:["Kubernetes","Docker","GitLab"]
     },
     { 
         id: 34,
         title: "Kubernetes challenge - Create a deployment for an application",
         description:"This project is meant to showcase skills learned in the Dio Kubernetes Program, Create a deployment for an application (Frontend, Backend and MySQL), with LoadBalancer and replicas" ,
-        repo:"https://github.com/LdeAlejandro/Dio-challenge-docker-apache-httpd",
+        repo:"https://github.com/LdeAlejandro/Dio-kubernetes-criando-deploy-challenge",
         skills:["Kubernetes","Docker",]
     },
     { 
