@@ -263,10 +263,10 @@ export const projectsData = [
 },
 {
     id: 6,
-    title: "CRUD - Swagger Api C#",
+    title: "CRUD - Swagger Api for Tasks C#",
     description:"Creation of a CRUD API with Swagger to manage tasks" ,
     repo:"https://github.com/LdeAlejandro/trilha-net-api-desafio",
-    skills:["C#","Sql"]
+    skills:["C#","Sql", "Swagger"]
 },
 {
     id: 5,
