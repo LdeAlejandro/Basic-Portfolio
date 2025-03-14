@@ -80,10 +80,16 @@ button{
     justify-content: center; /* Centers child elements horizontally */
 }
 
+.social-container{
+
+    max-width: 300px;
+}
+
 .social-container a:link,
 .social-container a:visited {
     text-decoration: none;
     color: #999999;
+    
     
 }
 

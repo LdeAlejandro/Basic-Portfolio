@@ -89,7 +89,7 @@
 .item-list .image-container {
     width: 100%;
     height: 200px; /* Adjust to the desired height */
-    background-image: url("https://media.istockphoto.com/id/2168229216/pt/foto/img_2911-juvenile-eagle-portrait.jpg?s=2048x2048&w=is&k=20&c=wAUy0sByEfoWWlvDINY6_lJnizc4NSR2P04JQkV9EyY=");
+    background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzYzMjY5YXhtZHZnYTJncHU5NGhlZnpiZXB1ZTQ4bzBuMzRrcmEyMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XfDiixCqdH7OrEBg5z/giphy.gif");
     background-size: cover;
     background-position: center;
     border-radius: 8px;
@@ -99,7 +99,7 @@
   }
   
   .item-list .image-container:hover {
-    background-image: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDEweXpmazNqNWN2dnU1eDFlNzB1MXhoN2Nranp0cHZremY4YTdqZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MUHNdrm3vk7MoyUsCO/giphy.webp");
+    background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzYzMjY5YXhtZHZnYTJncHU5NGhlZnpiZXB1ZTQ4bzBuMzRrcmEyMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XfDiixCqdH7OrEBg5z/giphy.gif");
   }
 
   .skills-container{

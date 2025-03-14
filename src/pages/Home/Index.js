@@ -10,6 +10,8 @@ function App() {
 
   projectsData.sort((a, b) => b.id - a.id);
 
+  console.log(projectsData);
+
   return (
 
     <div className="App">

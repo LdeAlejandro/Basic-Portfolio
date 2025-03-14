@@ -1,65 +1,86 @@
 // src/data.js
 
 export const projectsData = [
-
     { 
-        id: 35,
+        id: 38,
+        title: "Blog with Angular", 
+        description:"This project is a challengue from Dio platform meant to show Angular skills creating a page using an img layout as reference" ,
+        repo:"https://github.com/LdeAlejandro/Dio-Angular-Blog-challenge",
+        project:"https://dio-angular-blog-challenge.vercel.app/",
+        reference:"https://dribbble.com/shots/18089191-Blog-Layout",
+        img: require("./assets/Angular-blog/img.png"),
+        gif: require("./assets/Angular-blog/img.gif"),
+        skills:["Angular"]
+    },
+    { 
+        id: 37,
+        title: "Creating Dio platform site", 
+        description:"This project is a challengue from Dio platform meant to show React skills creating a page using the Figma as reference" ,
+        repo:"https://github.com/LdeAlejandro/Dio-clone",
+        project:"https://dio-clone-eta.vercel.app/",
+        reference:"https://www.figma.com/design/fvjQQNtqaUdpuNixvCZVav/DIO-CLONEt",
+        img: require("./assets/Dio-clone/img.png"),
+        gif: require("./assets/Dio-clone/img.gif"),
+        skills:["React"]
+    },
+    { 
+        id: 36,
         title: "Kubernetes Challenge – CI/CD Pipeline for App Deploy in GCP", 
         description:"This project is meant to showcase some of the skills learned in the Dio Docker Program." ,
         repo:"https://gitlab.com/LdeAlejandro/dio-k8-challenge-pipeline-deploy",
         skills:["Kubernetes","Docker","GitLab"]
     },
     { 
-        id: 34,
+        id: 35,
         title: "Kubernetes challenge - Create a deployment for an application",
         description:"This project is meant to showcase skills learned in the Dio Kubernetes Program, Create a deployment for an application (Frontend, Backend and MySQL), with LoadBalancer and replicas" ,
         repo:"https://github.com/LdeAlejandro/Dio-kubernetes-criando-deploy-challenge",
         skills:["Kubernetes","Docker",]
     },
     { 
-        id: 33,
+        id: 34,
         title: "Docker Apache HTTPD YML challenge",
         description:"This project is meant to showcase some of the skills learned in the Dio Docker Program." ,
         repo:"https://github.com/LdeAlejandro/Dio-challenge-docker-apache-httpd",
         skills:["Docker"]
     },
     { 
-        id: 32,
+        id: 33,
         title: "Spring Boot - CRUD cep API",
         description:"This project is meant to showcase Spring Boot skills for CRUD API, making an app that registers clients and their addresses." ,
         repo:"https://github.com/LdeAlejandro/Dio-java-Spring-Boot-jpa-jwt-security-h2",
         skills:["Spring Boot","Java", "Swagger", "Rest"]
     },
     {
-        id: 31,
+        id: 32,
         title: "Spring Boot - JWT Authentication",
         description:"This project is meant to showcase Spring Boot skills learned in the Dio Java Developer Program with JWT Authentication." ,
         repo:"https://github.com/LdeAlejandro/Dio-java-Spring-Boot-jpa-jwt-security-h2",
         skills:["Spring Boot","Java", "Jwt"]
     },
     {
-        id: 30,
+        id: 31,
         title: "Spring Boot - simple API REST CRUD",
         description:"This project is meant to showcase Spring Boot skills learned in the Dio Java Developer Program." ,
         repo:"https://github.com/LdeAlejandro/Dio-java-Spring-Api-Rest-Web-Swagger",
         skills:["Spring Boot","Java", "Swagger", "Rest"]
     },
     {
-        id: 29,
+        id: 30,
         title: "Java - Mockito practice",
         description:"This project is meant to showcase Java Mockito skills learned in the Dio Java Developer Program." ,
         repo:"https://github.com/LdeAlejandro/Dio-Java-Mockito",
         skills:["Java", "Junit", "Mockito","Maven"]
     },
     {
-        id: 28,
+        id: 29,
         title: "Maven - JUnit Tests Practice",
         description:"This project is meant to showcase Java JUnit skills learned in the Dio Java Developer Program." ,
         repo:"https://github.com/LdeAlejandro/Dio-Java-Junit/tree/main/junit-maven",
         skills:["Java", "Junit", "Maven"]
     },
     {
-    id: 27,
+    id: 28,
     title: "Timer Alarm Extension",
     description:"This extension lets you set timers that trigger Windows notifications, ensuring you never miss important tasks or reminders. Stay organized and on schedule with ease." ,
     repo:"https://github.com/LdeAlejandro/Fup-helper-extension",
@@ -69,7 +90,7 @@ export const projectsData = [
     skills:["React"]
 },
  {
-    id: 26,
+    id: 27,
     title: "Blog Online CRUD",
     description:"This project is a blog website designed to provide users with an intuitive and interactive experience for creating, editing, and deleting posts. Users can also register, verify their email, and reset their password." ,
     repo:"https://github.com/LdeAlejandro/crud-blog-toti",
@@ -79,7 +100,7 @@ export const projectsData = [
     skills:["Nextjs", "React", "Node.js", "mongo DB"]
 },
  {
-    id: 25,
+    id: 26,
     title: "Abstracting BootCamp",
     description:"This project is meant to showcase Java OOP skills learned in the Dio Java Developer Program." ,
     repo:"https://github.com/LdeAlejandro/Dio-Java-Abstraindo-BootCamp",
@@ -88,7 +109,7 @@ export const projectsData = [
     skills:["Java"]
 },
  {
-    id: 24,
+    id: 25,
     title: "Abstracting Phone",
     description:"This project is meant to showcase Java OOP skills learned in the Dio Java Developer Program." ,
     repo:"https://github.com/LdeAlejandro/Dio-challenge-java-uml-interfaces",
@@ -97,7 +118,7 @@ export const projectsData = [
     skills:["Java"]
 },
 {
-    id: 23,
+    id: 24,
     title: "Github Finder",
     description:"A website that allows you to search for GitHub users and view information about their profile and repositories by entering their username." ,
     repo:"https://github.com/LdeAlejandro/Dio-Git-Find",
@@ -107,7 +128,7 @@ export const projectsData = [
     skills:["React"]
 },
 {
-    id: 22,
+    id: 23,
     title: "Github api username search",
     description:"A website that allows you to search by username, infomation, repositories, starred reposotories and followers." ,
     repo:"https://github.com/LdeAlejandro/Dio-Git-Find",
@@ -117,7 +138,7 @@ export const projectsData = [
     skills:["React"]
 },
 {
-    id: 21,
+    id: 22,
     title: "QA - Cypress Web Component Testing",
     description:"A project meant to showcase skills in automated testing for web components" ,
     repo:"https://github.com/LdeAlejandro/Dio-cypress-challenge",
@@ -126,7 +147,7 @@ export const projectsData = [
     skills:["Cypress", "JavaScript"]
 },
 {
-    id: 20,
+    id: 21,
     title: "QA - Cypress Automated Testing Projects",
     description:"Projects meant to showcase skills in automated testing for websites, APIs, and command fixtures." ,
     repo:"https://github.com/LdeAlejandro/Dio-cypress",
@@ -135,7 +156,7 @@ export const projectsData = [
     skills:["Cypress", "JavaScript"]
 },
 {
-    id: 19,
+    id: 20,
     title: "QA - Rest Assured Test Automation for a Booking App",
     description:"A project designed to demonstrate skills in automated testing for a booking website" ,
     repo:"https://github.com/LdeAlejandro/automation-rest-assured-challenge-Dio",
@@ -144,7 +165,7 @@ export const projectsData = [
     skills:["Rest Assured", "Java"]
 },
 {
-    id: 18,
+    id: 19,
     title: "QA - Selenium Automation for Websites",
     description:"A project designed to demonstrate skills in automated testing for websites." ,
     repo:"https://github.com/LdeAlejandro/Selenium-Automation",
@@ -153,14 +174,14 @@ export const projectsData = [
     skills:["Selenium", "Java"]
 },
 {
-    id: 17,
+    id: 18,
     title: "QA - Test Cycle Report",
     description:"A project designed to showcase the ability to create user stories and generate reports in Jira." ,
     repo:"https://github.com/LdeAlejandro/Desafio-QA-Dio",
     skills:["Jira"]
 },
 {
-    id: 16,
+    id: 17,
     title: "Cloning Instagram Login Page",
     description:"This project works as portfolio to show css knowledge cloning Instagram Login page" ,
     repo:"https://github.com/LdeAlejandro/Instagram-Dio-Desafio-css",

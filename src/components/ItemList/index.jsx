@@ -19,15 +19,21 @@ const ItemList = ({data}) => {
         className="image-container"
         onMouseEnter={ handleMouseEnter}
         onMouseLeave={handleMouseLeave}
-        style={{
-          backgroundImage: `url(${isHovered && data.gif ? data.gif : data.img})`,
-        }}
-      ></div>
+      >
+
+        <img 
+    src={isHovered && data.gif ? data.gif : data.img} 
+    alt="Background" 
+    style={{ display: 'none' }}
+    onLoad={(e) => e.target.parentElement.style.backgroundImage = `url(${e.target.src})`}
+  />
+  
+      </div>
       <div>
         <a className="title-container" href={data.project} target="_blank" rel="noopener noreferrer"><strong>{data.title}</strong></a>
         <p className="skills-container">
-          {data.skills.map(skill => 
-          <span className="skill" key={data.id}>{skill + " "}  
+          {data.skills.map((skill, index) => 
+          <span className="skill" key={`${data.id}-${index}`}>{skill + " "}  
           </span>)} 
         </p>
         <p>{data.description} </p>
